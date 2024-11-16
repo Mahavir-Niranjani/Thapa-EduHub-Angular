@@ -1,1 +1,134 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+/********** base rule **********/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Urbanist", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    /* 1rem = 10px */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Poppins", sans-serif;
+}
+
+p,
+li,
+a {
+    font-family: "Urbanist", sans-serif;
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+    color: var(--para-color);
+    line-height: 1.5;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/********** theme **********/
+:root {
+    --main-color: #0062ff;
+    --supporting-color: #ebf3fe;
+    --font-color: #424242;
+    --bg-color: #f7fcff;
+    --heading-color: #000a19;
+    --hero-heading-color: #003b99;
+    --white-color: #ffffff;
+    --para-color: #504e4d;
+    --btn-hover-bg-color: #003b99;
+    --btn-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+/********** layout **********/
+.container {
+    max-width: 142rem;
+    margin: 0 auto;
+    padding: 9.6rem 2.4rem;
+}
+
+.section-about div:first-child,
+.section-course div:first-child,
+.section-why--choose div:first-child,
+.section-contact--homepage div:first-child {
+    padding-bottom: 2.4rem;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-cols--two {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-cols--three {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-cols--four {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+/********** module / reusable **********/
+.section-common-heading {
+    font-size: 3.2rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.section-common-subheading {
+    color: var(--heading-color);
+}
+
+.section-common--title {
+    font-size: 2rem;
+    margin: 2.4rem 0 1.2rem 0;
+}
+
+.fa-solid {
+    padding: 2.4rem;
+    background-color: var(--supporting-color);
+    font-size: 2.4rem;
+    border-radius: 50%;
+    color: var(--hero-heading-color);
+}
+
+.btn {
+    display: inline-block;
+    padding: 1.2rem 3.2rem;
+    background-color: var(--main-color);
+    color: var(--white-color);
+    border-radius: 0.6rem;
+}
+
+/********** states **********/
+.btn:hover {
+    background-color: var(--btn-hover-bg-color);
+    cursor: pointer;
+    box-shadow: var(--btn-box-shadow);
+}
+
+
+/**** HERO Section ****/
+
+/**** HERO Section End ****/
