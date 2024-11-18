@@ -1,0 +1,52 @@
+/**** FOOTER Section ****/
+footer {
+    background-color: var(--footer-bg-color);
+    padding-top: 15rem;
+  }
+  
+  footer * {
+    color: var(--white-color);
+  }
+  
+  footer .grid {
+    text-align: center;
+  }
+  
+  .footer-subheading {
+    font-size: 2.2rem;
+    font-weight: 700;
+  }
+  
+  .footer-div--1 p {
+    margin: 1rem 0 3.2rem 0;
+  }
+  
+  .footer-div--1 {
+    text-align: left;
+  
+    & .social-footer--icons {
+      display: flex;
+      gap: 2.4rem;
+  
+      & .fa-brands {
+        width: 5rem;
+        aspect-ratio: 1;
+        background-color: var(--supporting-color);
+        color: var(--btn-hover-bg-color);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s linear;
+        font-size: 3rem;
+  
+        &:hover {
+          color: var(--supporting-color);
+          background-color: var(--btn-hover-bg-color);
+          transform: rotate(360deg);
+        }
+      }
+    }
+  }
+  
+  /**** FOOTER Section End ****/

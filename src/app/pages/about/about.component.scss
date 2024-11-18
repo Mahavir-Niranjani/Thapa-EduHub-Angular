@@ -1,24 +1,24 @@
 /**** ABOUT Section ****/
 .section-about .grid {
-    gap: 6.4rem;
+  gap: 6.4rem;
 }
 
 .section-about .about-div {
-    text-align: center;
+  text-align: center;
 }
 
 .section-about img {
-    padding: 2.4rem;
-    background-color: var(--supporting-color);
-    width: 15rem;
-    height: auto;
-    border-radius: 50%;
-    transition: all 0.3s linear;
+  padding: 2.4rem;
+  background-color: var(--supporting-color);
+  width: 15rem;
+  height: auto;
+  border-radius: 50%;
+  transition: all 0.3s linear;
 }
 
-.about-div .icon:hover>img {
-    transform: rotate(360deg);
-    background: linear-gradient(to right, #0575e6, #021b79);
+.about-div .icon:hover > img {
+  transform: rotate(360deg);
+  background: linear-gradient(to right, #0575e6, #021b79);
 }
 
 /**** ABOUT Section End ****/
