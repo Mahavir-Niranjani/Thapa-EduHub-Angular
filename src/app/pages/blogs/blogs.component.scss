@@ -1,0 +1,40 @@
+/**** BLOG Section ****/
+.section-blog {
+    background-color: var(--bg-color);
+  
+    & .grid {
+      gap: 6.4rem;
+    }
+  
+    & img {
+      width: 100%;
+      height: auto;
+    }
+  
+    & .blog-div {
+      box-shadow: var(--btn-box-shadow);
+      transition: all 0.3s linear;
+  
+      &:hover {
+        transform: scale(1.1);
+      }
+  
+      & .blog-content {
+        padding: 1.4rem 2.4rem 2.4rem;
+      }
+    }
+  
+    & .blog-date {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 1.6rem;
+      font-size: 1.4rem;
+  
+      & .fa-solid {
+        background-color: transparent;
+        padding: 0;
+      }
+    }
+  }
+  
+  /**** BLOG Section End ****/
